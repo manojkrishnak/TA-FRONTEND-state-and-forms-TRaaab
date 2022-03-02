@@ -1,0 +1,45 @@
+*,
+*::after,
+*::before{
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 16px;
+}
+
+body{
+  line-height: 1.2;
+}
+
+.container{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.question{
+  padding: 1rem;
+  border: 1px solid black;
+  background-color: #fdd88c;
+  position: relative;
+  cursor: pointer;
+}
+
+.answer{
+  padding: 0 1rem;
+}
+
+.expand{
+  position: absolute;
+  right: 5%;
+}
+
+.none-display{
+  display: none;
+}
+
+.display-answer{
+  display: inline-block;
+}
