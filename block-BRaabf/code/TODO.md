@@ -28,7 +28,7 @@ In this extension we will add a new feature to our counter application. With thi
 
 For Example:
 
-If user selected the `step` to be `5` and `max` to `15`. The value of counter should increment/decrement by 5 and should not exceed the `max` value.
+If user selected the `step` to be `5` and `max` to `15`. The value of counter should increment/decrement by 5 and should not exceed the `maxx` value.
 
 ## App UI With Steps and Max
 
