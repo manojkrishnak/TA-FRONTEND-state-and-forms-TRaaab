@@ -1,0 +1,37 @@
+.container{
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.flex{
+  display: flex;
+}
+
+.justify-bt{
+  justify-content: space-between;
+}
+
+.App {
+  text-align: center;
+}
+
+.count{
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+button{
+  margin: 0 1rem;
+}
+
+.steps{
+  margin-bottom: 3rem;
+}
+
+.active{
+  color: #fff;
+  background-color: black;
+}
+
