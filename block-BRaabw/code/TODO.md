@@ -11,7 +11,7 @@ You will find all the information you will need to work on this project in the `
 
 ## Functionality To Be Added
 
-- User can filter using sizes
+- User can filter using sizess
 - At one time user can select multiple sizes based on that the filtered t-shirts will be visible
 - User can also sort the data by `Lowest to highest` and `Highest to lowest`
 - User can click on the add to cart button
