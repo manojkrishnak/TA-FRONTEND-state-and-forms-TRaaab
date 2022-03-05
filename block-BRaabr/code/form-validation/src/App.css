@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap");
+
+
+
+*, *::before, *::after{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Syne Mono', monospace;
+  line-height: 1.2;
+  background-color: rgb(179, 181, 218);
+}
+
+.container{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.item{
+  margin: 2rem 0;
+}
+
+label{
+  margin-right: 1rem;
+  display: block;
+  margin-bottom: 0.4rem;
+}
+
+.item input, textarea{
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid black;
+}
+
+
+.App, .form-validation {
+  padding: 1rem;
+}
+
+.flex{
+  display: flex;
+}
+
+.flex-48{
+  flex: 0 1 48%;
+}
+
+.justify-ct{
+  justify-content: center;
+}
+
+.justify-bt{
+  justify-content: space-between;
+}
+
+.col{
+  flex-direction: column;
+}
+
+.border-right{
+  border-right: 4px solid black;
+}
+.border{
+  border: 1px solid red;
+}
+
+.border-b{
+  border: 1px solid blue;
+}
+
+h1, h2{
+  font-size: 1.7rem;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+
+/* form validation - register with us  */
+.form-validation .item{
+  margin-bottom: 0.2rem;
+}
+
+.form-validation input {
+  width: 80%;
+}
+
+.form-validation .submit-btn{
+  background-color: skyblue;
+  padding: 0.4rem;
+  width: 80%;
+  border-radius: 4px;
+  border: 2px solid rgb(67, 65, 206);
+  color: rgb(67, 65, 206);
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.form{
+  width: 80%;
+}
+
+span{
+  color: red;
+  font-size: 0.9rem;
+}
+
+.error{
+  border: 1px solid red;
+  color: red;
+}
