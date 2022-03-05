@@ -5,7 +5,7 @@
 - It will consists of three steps as given in the image
 - Look at the image and create something similar
 - You can choose any color but be consistent (don't use 20 colors)
-- Clicking on `Next` will take you to next step
+- Clicking on `Next` will take you to next steps
 - Clicking on `Back` will take you to the previous step
 
 ## Step One
