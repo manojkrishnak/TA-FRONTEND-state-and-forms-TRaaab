@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hubballi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Lato:wght@700&family=Lora:wght@700&family=Merriweather:ital,wght@1,700&family=Source+Code+Pro:wght@700&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  line-height: 1.2;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-bt {
+  justify-content: space-between;
+}
+
+.justify-ct {
+  justify-content: center;
+}
+
+.align-ct {
+  align-content: center;
+}
+
+.col {
+  flex-direction: column;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.flex-48 {
+  flex: 0 1 48%;
+}
+
+#message {
+  padding: 1rem;
+  width: 50%;
+  font-size: 1.2rem;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border: 1px solid gray;
+}
+
+#message::placeholder {
+  padding: 1rem 0.5rem;
+  font-size: 1.2rem;
+}
+
+#message::-moz-placeholder {
+  padding: 1rem 0.5rem;
+}
+
+.App {
+  text-align: center;
+}
+
+input[type="range"] {
+  padding: 1rem;
+  border: 1px solid red;
+}
+
+.text-input {
+  padding: 0.5rem;
+}
+
+.font-box {
+  border: 1px solid green;
+  border-radius: 10px;
+  height: 200px;
+  /* margin-bottom: 1rem; */
+  margin: 0 0.5rem 1rem 0.5rem;
+  font-weight: 400;
+  padding: 0.5rem;
+}
+
+.all-fonts {
+  margin-top: 2rem;
+}
+
+.ff {
+  font-size: 1.3rem;
+}
+
+.reset-btn{
+  width: 10%;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border: 1px solid gray;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.size-block{
+  width: 40%;
+  border: 1px solid gray;
+}
+
+/* font family */
+
+.hubballi {
+  font-family: "Hubballi", cursive;
+}
+
+.fredoka {
+  font-family: "Fredoka", sans-serif;
+}
+
+.josefin-sans {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.lato {
+  font-family: "Lato", sans-serif;
+}
+
+.laro {
+  font-family: "Lora", serif;
+}
+
+.marriweather {
+  font-family: "Merriweather", serif;
+}
+
+.source-code-pro {
+  font-family: "Source Code Pro", monospace;
+}
